@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import matplotlib.font_manager as font_manager
-import keyring
-import getpass
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import time

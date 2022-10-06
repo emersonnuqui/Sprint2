@@ -70,10 +70,10 @@ def introduction():
     col2.markdown(' ')
 
     reasons = '''
-    <p style="font-size: 24px; font-weight:300; text-align: center;">  -She barely makes it to the Top 200s or Top 100s</p>
-    <p style="font-size: 24px; font-weight:300; text-align: center;">  -She got the talent, the power, but has so little listership</p>
-    <p style="font-size: 24px; font-weight:300; text-align: center;">  -We want to showcase her talent more. That she is more than your biritera, pinoy teleserye ost singer</p>
-    <p style="font-size: 24px; font-weight:300; text-align: center;">  -We want to create her own brand, her own identity</p>
+    <p style="font-size: 18px; font-weight:300; text-align: center;">  -She barely makes it to the Top 200s or Top 100s</p>
+    <p style="font-size: 18px; font-weight:300; text-align: center;">  -She got the talent, the power, but has so little listership</p>
+    <p style="font-size: 18px; font-weight:300; text-align: center;">  -We want to showcase her talent more. That she is more than your biritera, pinoy teleserye ost singer</p>
+    <p style="font-size: 18px; font-weight:300; text-align: center;">  -We want to create her own brand, her own identity</p>
     '''
     col2.markdown(reasons, unsafe_allow_html=True)
 
@@ -97,14 +97,14 @@ def artist():
 
     related_artist = '<p style="font-size: 36px; font-weight:700; text-align: left;">Competitors:</p>'
     st.markdown(related_artist, unsafe_allow_html=True)
-    col1, col2, col3, col4, col5, col6 = st.columns(6)
+    col1, col2, col3, col4= st.columns(4)
 
-    col1.markdown(' ')
-    col2.image("angeline.png", width=200, caption='Angeline Quinto')
-    col3.image("regine.png", width=200, caption="Regine Velasquez")
-    col4.image("jona.png", width=200, caption="Jona")
-    col5.image("sarah.png", width=200, caption="Sarah Geronimo")
-    col6.markdown(' ')
+
+    col1.image("angeline.png", width=200, caption='Angeline Quinto')
+    col2.image("regine.png", width=200, caption="Regine Velasquez")
+    col3.image("jona.png", width=200, caption="Jona")
+    col4.image("sarah.png", width=200, caption="Sarah Geronimo")
+ 
 
     st.write("[Tiktok](https://www.tiktok.com/@itsmorissette?lang=en)")
     st.write("[Facebook](https://www.facebook.com/MorissettePh/?_rdc=1&_rdr)")

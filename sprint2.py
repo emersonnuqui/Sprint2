@@ -47,17 +47,35 @@ def load_data():
     tracks_df = track_df.merge(chart_tracks_df, on=['track_id','track_name'], how='left')
     tracks_df['date'] = pd.to_datetime(tracks_df['date'])
 
-    #Extract data for specific artist
-    artist_data=tracks_df[
-        tracks_df["artist_name"]=="Taylor Swift"]
-
     return tracks_df
 
 def introduction():
     # Write the title and the subheader
-    subheader = '<p style="font-size: 60px; font-weight:700; text-align: center;">Hello Spotify!</p>'
+    subheader = '<p style="font-size: 70px; font-weight:800; text-align: center;">Bringing Morissette to even higher heights</p>'
     st.markdown(subheader, unsafe_allow_html=True)
 
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+    col1, col2 = st.columns(2)
+
+    col1.image('mori-singing.jpg')
+
+    col2.markdown(' ')
+    col2.markdown(' ')
+    captions = '<p style="font-size: 40px; font-weight:700; color:#1DB954; text-align: center;">Why Morissette?</p>'
+    col2.markdown(captions, unsafe_allow_html=True)
+    col2.markdown(' ')
+    col2.markdown(' ')
+
+    reasons = '''
+    <p style="font-size: 24px; font-weight:300; text-align: center;">  -She barely makes it to the Top 200s or Top 100s</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">  -She got the talent, the power, but has so little listership</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">  -We want to showcase her talent more. That she is more than your biritera, pinoy teleserye ost singer</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">  -We want to create her own brand, her own identity</p>
+    '''
+    col2.markdown(reasons, unsafe_allow_html=True)
 
 def artist():
     st.image("morissette.jpg")
@@ -65,23 +83,28 @@ def artist():
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")
-    about = '<p style="font-size: 24px; font-weight:700; text-align: left;">About:</p>'
+    about = '<p style="font-size: 36px; font-weight:700; text-align: left;">Profiling:</p>'
     st.markdown(about, unsafe_allow_html=True)
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")
-    info = '<p style="font-size: 14px; font-weight:600; text-align: left;">Munimuni is a band that speaks about the realities of life and of an enduring hope for the future.In 2012, Munimuni started creating music in the University of the Philippines Diliman. Building on the folk pop genre which has developed into a distinct sound and songwriting that came to be known as Makata Pop.</p>'
-    st.markdown(info, unsafe_allow_html=True)
+    profile = '''
+    <p style="font-size: 20px; font-weight:300; text-align: left;"> - Profile a </p>
+    <p style="font-size: 20px; font-weight:300; text-align: left;"> - Profile b </p>
+    <p style="font-size: 20px; font-weight:300; text-align: left;"> - Profile c </p>
+    '''
+    st.markdown(profile, unsafe_allow_html=True)
 
-    related_artist = '<p style="font-size: 24px; font-weight:700; text-align: left;">Related artists:</p>'
+    related_artist = '<p style="font-size: 36px; font-weight:700; text-align: left;">Competitors:</p>'
     st.markdown(related_artist, unsafe_allow_html=True)
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
 
-    col1.markdown(" ")
-    col2.image("autotelic.png", width=200, caption="Autotelic")
-    col3.image("ben&ben.png", width=200, caption="Ben&Ben")
-    col4.image("up-dharma.png", width=200, caption="Up Dharma Down")
-    col5.markdown(" ")
+    col1.markdown(' ')
+    col2.image("angeline.png", width=200, caption='Angeline Quinto')
+    col3.image("regine.png", width=200, caption="Regine Velasquez")
+    col4.image("jona.png", width=200, caption="Jona")
+    col5.image("sarah.png", width=200, caption="Sarah Geronimo")
+    col6.markdown(' ')
 
     st.write("[Tiktok](https://www.tiktok.com/@itsmorissette?lang=en)")
     st.write("[Facebook](https://www.facebook.com/MorissettePh/?_rdc=1&_rdr)")
@@ -117,46 +140,46 @@ def artist_spotify():
     col1, col2, col3 = st.columns(3)
 
     #Ben&Ben info
-    col1.image("ben2.jpg")
-    ben = '<p style="font-size: 36px; font-weight:700; text-align: center;">Ben&Ben</p>'
-    col1.markdown(ben, unsafe_allow_html=True)
-    spotify = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Spotify:</b> </p>'
-    col1.markdown(spotify, unsafe_allow_html=True)
-    twitter = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Twitter:</b> </p>'
-    col1.markdown(twitter, unsafe_allow_html=True)
-    facebook = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Facebook:</b> </p>'
-    col1.markdown(facebook, unsafe_allow_html=True)
-    instagram = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Instagram:</b> </p>'
-    col1.markdown(instagram, unsafe_allow_html=True)
+    #col1.image("ben2.jpg")
+    #ben = '<p style="font-size: 36px; font-weight:700; text-align: center;">Ben&Ben</p>'
+    #col1.markdown(ben, unsafe_allow_html=True)
+    #spotify = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Spotify:</b> </p>'
+    #col1.markdown(spotify, unsafe_allow_html=True)
+    #twitter = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Twitter:</b> </p>'
+    #col1.markdown(twitter, unsafe_allow_html=True)
+    #facebook = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Facebook:</b> </p>'
+    #col1.markdown(facebook, unsafe_allow_html=True)
+    #instagram = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Instagram:</b> </p>'
+    #col1.markdown(instagram, unsafe_allow_html=True)
 
     #Autotelic info
-    col2.image("autotelic2.jpg")
-    auto = '<p style="font-size: 36px; font-weight:700; text-align: center;">Autotelic</p>'
-    col2.markdown(auto, unsafe_allow_html=True)
-    spotify = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Spotify:</b> </p>'
-    col2.markdown(spotify, unsafe_allow_html=True)
-    twitter = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Twitter:</b> </p>'
-    col2.markdown(twitter, unsafe_allow_html=True)
-    facebook = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Facebook:</b> </p>'
-    col2.markdown(facebook, unsafe_allow_html=True)
-    instagram = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Instagram:</b> </p>'
-    col2.markdown(instagram, unsafe_allow_html=True)
+    #col2.image("autotelic2.jpg")
+    #auto = '<p style="font-size: 36px; font-weight:700; text-align: center;">Autotelic</p>'
+    #col2.markdown(auto, unsafe_allow_html=True)
+    #spotify = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Spotify:</b> </p>'
+    #col2.markdown(spotify, unsafe_allow_html=True)
+    #twitter = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Twitter:</b> </p>'
+    #col2.markdown(twitter, unsafe_allow_html=True)
+    #facebook = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Facebook:</b> </p>'
+    #col2.markdown(facebook, unsafe_allow_html=True)
+    #instagram = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>     Instagram:</b> </p>'
+    #col2.markdown(instagram, unsafe_allow_html=True)
 
     #Up Dharma info
-    col3.image("up-dharma2.jpg")
-    dharma = '<p style="font-size: 36px; font-weight:700; text-align: center;">Up Dharma Down</p>'
-    col3.markdown(dharma, unsafe_allow_html=True)
-    spotify = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Spotify:</b> </p>'
-    col3.markdown(spotify, unsafe_allow_html=True)
-    twitter = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Twitter:</b> </p>'
-    col3.markdown(twitter, unsafe_allow_html=True)
-    facebook = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Facebook:</b> </p>'
-    col3.markdown(facebook, unsafe_allow_html=True)
-    instagram = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Instagram:</b> </p>'
-    col3.markdown(instagram, unsafe_allow_html=True)
+    #col3.image("up-dharma2.jpg")
+    #dharma = '<p style="font-size: 36px; font-weight:700; text-align: center;">Up Dharma Down</p>'
+    #col3.markdown(dharma, unsafe_allow_html=True)
+    #spotify = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Spotify:</b> </p>'
+    #col3.markdown(spotify, unsafe_allow_html=True)
+    #twitter = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Twitter:</b> </p>'
+    ##col3.markdown(twitter, unsafe_allow_html=True)
+    #facebook = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Facebook:</b> </p>'
+    #col3.markdown(facebook, unsafe_allow_html=True)
+    #instagram = '<p style="font-size: 16px; font-weight:400; text-align: left;"><b>Instagram:</b> </p>'
+    #col3.markdown(instagram, unsafe_allow_html=True)
 
-def visuals():
-    st.image("taylor.jpg")
+def eda():
+    #st.image("taylor.jpg")
     data = load_data()
     #make duration ms to minutes
     taylor_df=data[
@@ -454,32 +477,42 @@ def visuals():
 
     bb = plt.show()
     st.pyplot(bb)
+def methodology():
+    title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Methodology</p>'
+    st.markdown(title, unsafe_allow_html=True)
 
 def recommender_engine():
-    st.markdown("hello")
+    title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Recommender Engine</p>'
+    st.markdown(title, unsafe_allow_html=True)
+
 def conclusion():
-    st.markdown("hello")
+    title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Insights and Recommendations</p>'
+    st.markdown(title, unsafe_allow_html=True)
+
 st.sidebar.markdown('<p style="font-size: 25px; font-weight:700; color:black; text-align: center;">Main Pages</p>', unsafe_allow_html=True)
 
 list_of_pages = [
-    "Introduction",
-    "Artist",
-    "Artist and related artists",
-    "Visuals",
+    "Bringing Morissette to even higher heights",
+    "Morissette",
+    "Morissette and competitors",
+    "EDA",
+    "Methodology",
     "Recommender Engine",
-    "Conclusion and Recommendation"
+    "Insights and Recommendations"
 ]
 selection = st.sidebar.radio("Go to: ", list_of_pages)
 
-if selection == "Introduction":
+if selection == "Bringing Morissette to even higher heights":
     introduction()
-elif selection == "Artist":
+elif selection == "Morissette":
     artist()
-elif selection == "Artist and related artists":
+elif selection == "Morissette and competitors":
     artist_spotify()
 elif selection == "Visuals":
-    visuals()
+    eda()
+elif selection == "Methodology":
+    methodology()
 elif selection == "Recommender Engine":
     recommender_engine()
-elif selection == "Conclusion and Recommendation":
+elif selection == "Insights and Recommendations":
     conclusion()

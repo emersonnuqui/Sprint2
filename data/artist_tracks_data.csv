@@ -1,0 +1,201 @@
+artist,album,track_number,id,name,uri,duration_ms,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,popularity
+Angeline Quinto,@LoveAngelineQuinto,1,48pPpT5Xyli4tBCMiy4Zhs,"Para Bang, Para Lang",spotify:track:48pPpT5Xyli4tBCMiy4Zhs,248711,0.651,0.67,0.533,0.0,0.174,-5.851,0.0394,90.089,0.447,28
+Angeline Quinto,@LoveAngelineQuinto,2,12fSfbtn43L2KO6kqqW0rj,'Di Na Tayo,spotify:track:12fSfbtn43L2KO6kqqW0rj,270132,0.292,0.71,0.657,1.48e-05,0.236,-5.509,0.047,139.965,0.425,28
+Angeline Quinto,@LoveAngelineQuinto,3,6B2UndFWylp4Y93FwADGVb,At Ang Hirap,spotify:track:6B2UndFWylp4Y93FwADGVb,257567,0.843,0.434,0.357,1.69e-06,0.169,-8.532,0.0507,129.769,0.14,53
+Angeline Quinto,@LoveAngelineQuinto,4,0Ba6MOshEq4QBV5qM4X0UZ,Parang Tayo Pero Hindi,spotify:track:0Ba6MOshEq4QBV5qM4X0UZ,226377,0.711,0.527,0.413,0.0,0.327,-7.574,0.032,127.282,0.236,19
+Angeline Quinto,@LoveAngelineQuinto,5,3Lc6STDL8CQfAY4t8QVZjT,Awit Ng Pag-ibig,spotify:track:3Lc6STDL8CQfAY4t8QVZjT,249939,0.858,0.35,0.283,1.97e-06,0.0628,-8.12,0.0382,129.872,0.188,18
+Angeline Quinto,@LoveAngelineQuinto,6,551gJb0O4V4IA8HtuLeXXD,Ang Pag-ibig Ko'y Ikaw,spotify:track:551gJb0O4V4IA8HtuLeXXD,273293,0.942,0.444,0.223,2.47e-05,0.123,-9.135,0.0341,76.461,0.255,18
+Angeline Quinto,@LoveAngelineQuinto,7,3qXuyBLqetZRDInLJqpeL6,Paano Ba Ang Huwag Kang Mahalin,spotify:track:3qXuyBLqetZRDInLJqpeL6,229250,0.956,0.437,0.264,0.00229,0.0813,-9.822,0.04,126.997,0.322,18
+Angeline Quinto,@LoveAngelineQuinto,8,3megxm4xWsConN0SIGHPqg,Nanghihinayang,spotify:track:3megxm4xWsConN0SIGHPqg,285596,0.741,0.593,0.234,3.37e-06,0.094,-8.807,0.0367,121.885,0.426,40
+Angeline Quinto,@LoveAngelineQuinto,9,4VNXZHKy6HBKGosrWUnMxh,Kailangan Kita,spotify:track:4VNXZHKy6HBKGosrWUnMxh,264045,0.933,0.371,0.245,2.67e-05,0.0907,-8.253,0.0324,130.022,0.337,36
+Angeline Quinto,@LoveAngelineQuinto,10,3JKbROtYB8oLkAo1nqNrg4,"Para Bang, Para Lang - Acoustic Remix",spotify:track:3JKbROtYB8oLkAo1nqNrg4,233116,0.684,0.641,0.541,1.08e-06,0.301,-7.19,0.0315,93.988,0.357,14
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,1,6VeOvyaMBynIqMSY5uZpfx,Gusto Kita,spotify:track:6VeOvyaMBynIqMSY5uZpfx,288000,0.594,0.461,0.474,0.0,0.0976,-7.479,0.0347,71.76,0.276,46
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,2,41DL92BdNCc5SVKb0K2mTW,Why Can't It Be,spotify:track:41DL92BdNCc5SVKb0K2mTW,227448,0.635,0.623,0.346,0.0033,0.0987,-8.524,0.0382,125.952,0.189,38
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,3,4cn755HC6F6BTjJ0GNEccv,Umiiyak Ang Puso,spotify:track:4cn755HC6F6BTjJ0GNEccv,291944,0.772,0.637,0.49,1.47e-06,0.0715,-7.508,0.0384,129.988,0.327,40
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,4,45rkTL4dqJo0ENnY2rkqTI,Someday,spotify:track:45rkTL4dqJo0ENnY2rkqTI,227892,0.263,0.646,0.493,1.09e-06,0.125,-7.314,0.0391,126.139,0.187,30
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,5,1Z4S3lmlIU5Cl5XRC2eynj,Wherever You Are,spotify:track:1Z4S3lmlIU5Cl5XRC2eynj,286275,0.907,0.561,0.3,7.84e-05,0.115,-9.397,0.0327,99.821,0.229,32
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,6,1WWyNkpStGdwTv0YFWNQiO,Hindi ko Kaya,spotify:track:1WWyNkpStGdwTv0YFWNQiO,304796,0.89,0.621,0.319,3.09e-05,0.089,-8.065,0.0309,109.944,0.256,41
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,7,3bSRa6ygplMrySCSBxJAzP,Muli,spotify:track:3bSRa6ygplMrySCSBxJAzP,277028,0.62,0.652,0.37,0.000653,0.111,-9.566,0.0387,126.049,0.229,36
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,8,2sEyQuRFRu3U5DGP1mcUOj,Forever,spotify:track:2sEyQuRFRu3U5DGP1mcUOj,241632,0.929,0.378,0.248,3.79e-06,0.093,-8.658,0.0371,117.765,0.334,38
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,9,3nq5RxPmKsFmiFFsuzuixx,Sana Bukas Pa Ang Kahapon,spotify:track:3nq5RxPmKsFmiFFsuzuixx,299911,0.935,0.371,0.277,0.000218,0.119,-8.192,0.0314,85.113,0.212,29
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,10,2rs03XVHMa2Ov6F93f0JbL,Gusto Kita - Minus One,spotify:track:2rs03XVHMa2Ov6F93f0JbL,287933,0.0831,0.519,0.391,0.111,0.107,-11.586,0.036,72.004,0.293,12
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,11,678mSaLBo6aedt4LN9dxjq,Why Can't It Be - Minus One,spotify:track:678mSaLBo6aedt4LN9dxjq,230160,0.165,0.674,0.299,0.826,0.348,-12.585,0.0444,126.052,0.108,11
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,12,35fmbNKcKzfNvabCmQZpTg,Umiiyak Ang Puso - Minus One,spotify:track:35fmbNKcKzfNvabCmQZpTg,291880,0.16,0.67,0.411,0.73,0.0837,-12.018,0.0372,130.018,0.281,11
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,13,0qpPzt4adwTbc2tMsDih8B,Someday - Minus One,spotify:track:0qpPzt4adwTbc2tMsDih8B,227826,0.0378,0.643,0.401,0.847,0.126,-13.652,0.0442,126.051,0.536,9
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,14,4yeCYkheyvyySY3t8iN1X0,Wherever You Are - Minus One,spotify:track:4yeCYkheyvyySY3t8iN1X0,286213,0.561,0.612,0.189,0.636,0.106,-15.791,0.0464,99.996,0.136,10
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,15,4fD6mqYsZwa5Pe4fSezqBE,Hindi ko Kaya - Minus One,spotify:track:4fD6mqYsZwa5Pe4fSezqBE,304733,0.325,0.689,0.261,0.518,0.0737,-13.597,0.0379,109.978,0.414,10
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,16,3Qyd7XFlNJx6z6715IeN4Q,Muli - Minus One,spotify:track:3Qyd7XFlNJx6z6715IeN4Q,276973,0.0657,0.652,0.303,0.845,0.114,-13.164,0.0585,125.995,0.123,10
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,17,5RPROZhTdIYdATG0fOw0fe,Forever - Minus One,spotify:track:5RPROZhTdIYdATG0fOw0fe,241560,0.983,0.626,0.132,0.852,0.0864,-15.39,0.0407,119.985,0.131,10
+Angeline Quinto,Sana Bukas Pa Ang Kahapon,18,4f1jpdk3Lz2ogTq7uK8RKk,Sana Bukas Pa Ang Kahapon - Minus One,spotify:track:4f1jpdk3Lz2ogTq7uK8RKk,297840,0.94,0.234,0.116,0.915,0.117,-14.267,0.0336,133.925,0.0383,11
+Angeline Quinto,Higher Love,1,3oqCi7Li3yKKMm3in1Ny0J,Higher Love,spotify:track:3oqCi7Li3yKKMm3in1Ny0J,194320,0.526,0.493,0.623,1.16e-05,0.124,-7.467,0.315,101.892,0.343,6
+Angeline Quinto,Higher Love,2,19nYxNCw12L6PdqLzjYw5H,Sana2X,spotify:track:19nYxNCw12L6PdqLzjYw5H,205266,0.155,0.777,0.817,0.00169,0.227,-5.623,0.0411,125.019,0.811,28
+Angeline Quinto,Higher Love,3,0VgMEQnht8sKayIaKb1fYW,Nag-iisa Lang,spotify:track:0VgMEQnht8sKayIaKb1fYW,271080,0.865,0.506,0.301,1.37e-05,0.112,-10.264,0.0338,78.1,0.185,40
+Angeline Quinto,Higher Love,4,2TIjEsOaJsrcblTf3go6aX,Sino Ako Sa 'Yo,spotify:track:2TIjEsOaJsrcblTf3go6aX,242333,0.74,0.508,0.474,0.0,0.366,-7.342,0.0341,77.297,0.172,28
+Angeline Quinto,Higher Love,5,22b8YlR2nWP5U6omMo7hjN,Ako Na Lang,spotify:track:22b8YlR2nWP5U6omMo7hjN,242413,0.852,0.606,0.262,9.47e-05,0.132,-9.177,0.0431,120.717,0.201,28
+Angeline Quinto,Higher Love,6,5kS3zkUIEWman2GLGpjoX9,Ikaw Ang Aking Mundo,spotify:track:5kS3zkUIEWman2GLGpjoX9,285653,0.799,0.544,0.335,0.000138,0.0957,-10.369,0.0364,146.04,0.153,20
+Angeline Quinto,Higher Love,7,53IGnOJ7k1aiJF0InqEdDn,Babalikang Muli - Adaptation of Namidaga Kimio Wasurenai,spotify:track:53IGnOJ7k1aiJF0InqEdDn,242146,0.912,0.411,0.261,1.27e-05,0.135,-11.764,0.0317,139.783,0.338,32
+Angeline Quinto,Higher Love,8,5GnxlH9O1MeBHvGsXEaWCQ,Kung Sakali Man,spotify:track:5GnxlH9O1MeBHvGsXEaWCQ,221146,0.679,0.601,0.41,0.0,0.088,-8.098,0.0344,134.106,0.247,36
+Angeline Quinto,Higher Love,9,21nkS7HVDi7ZUKNs0gAO2K,Bring Back the Times,spotify:track:21nkS7HVDi7ZUKNs0gAO2K,240786,0.865,0.621,0.42,0.00011,0.141,-7.464,0.0308,134.086,0.167,16
+Angeline Quinto,Higher Love,10,3fb6lCKvTrd21hqlF9RyN4,Hanggang Kailan Kita Mamahalin,spotify:track:3fb6lCKvTrd21hqlF9RyN4,292626,0.87,0.397,0.285,6.99e-05,0.215,-9.806,0.0357,111.558,0.283,44
+Angeline Quinto,Higher Love,11,3iA1XNInGznyM1M2dHufNa,Sana2X - Brian Cua Club Diva Mix,spotify:track:3iA1XNInGznyM1M2dHufNa,351693,0.00525,0.748,0.957,0.0093,0.325,-6.732,0.0985,127.999,0.66,5
+Angeline Quinto,Higher Love,12,27mbIA9jwRGWbheAzmzN46,Higher Love - Brian Cua HigherDiva Mix,spotify:track:27mbIA9jwRGWbheAzmzN46,244186,0.123,0.349,0.849,0.107,0.562,-4.946,0.0399,204.064,0.557,5
+Angeline Quinto,Higher Love,13,0f5SbdcScwaXMJzBB33FOT,Nag-iisa Lang - Minus One,spotify:track:0f5SbdcScwaXMJzBB33FOT,271080,0.402,0.523,0.279,0.711,0.113,-14.559,0.0309,77.995,0.11,5
+Angeline Quinto,Higher Love,14,3RDDAoZkmERM9HokyLP0Ix,Sino Ako Sa 'Yo - Minus One,spotify:track:3RDDAoZkmERM9HokyLP0Ix,242333,0.298,0.547,0.349,0.775,0.364,-12.777,0.0268,77.032,0.202,4
+Angeline Quinto,Higher Love,15,6nKvrVZUxRSGUVcHC96X32,Ikaw Ang Aking Mundo - Minus One,spotify:track:6nKvrVZUxRSGUVcHC96X32,285653,0.0619,0.564,0.234,0.911,0.103,-14.27,0.029,146.012,0.0686,4
+Angeline Quinto,Higher Love,16,2i6oDLXFMbJNDnlgadMdgt,Babalikang Muli - Minus One,spotify:track:2i6oDLXFMbJNDnlgadMdgt,242146,0.748,0.444,0.208,0.718,0.14,-11.226,0.0269,70.001,0.185,5
+Angeline Quinto,Higher Love,17,3tEKZtqpRXBedrlV9QR7pH,Kung Sakali Man - Minus One,spotify:track:3tEKZtqpRXBedrlV9QR7pH,221146,0.0194,0.571,0.391,0.824,0.0868,-11.972,0.0324,133.982,0.072,4
+Angeline Quinto,Higher Love,18,2UI6Kz2FcoBUCA1WTUe0M7,Bring Back the Times - Minus One,spotify:track:2UI6Kz2FcoBUCA1WTUe0M7,238786,0.363,0.631,0.368,0.76,0.142,-8.858,0.0296,134.033,0.126,4
+Angeline Quinto,Patuloy Ang Pangarap,1,2PJrY4qb0lqNZDgDxRVOyC,Patuloy Ang Pangarap,spotify:track:2PJrY4qb0lqNZDgDxRVOyC,240799,0.711,0.522,0.51,0.0,0.113,-6.285,0.0288,130.003,0.189,39
+Angeline Quinto,Patuloy Ang Pangarap,2,6HAO91i2tXx1x2VOzB0sRQ,Muling Magmamahal,spotify:track:6HAO91i2tXx1x2VOzB0sRQ,263657,0.83,0.412,0.5,7.19e-06,0.101,-6.466,0.0305,143.88,0.229,32
+Angeline Quinto,Patuloy Ang Pangarap,3,7fqIey8MmR87K4QdC8V4Zx,Panghabang Panahon,spotify:track:7fqIey8MmR87K4QdC8V4Zx,246024,0.853,0.571,0.398,1.57e-05,0.128,-6.723,0.0293,124.075,0.353,12
+Angeline Quinto,Patuloy Ang Pangarap,4,0ZK52G9qvEHrGQE2nJ2UrM,Wag Mo Akong Iwan Mag Isa,spotify:track:0ZK52G9qvEHrGQE2nJ2UrM,269508,0.853,0.364,0.229,3.11e-05,0.141,-9.464,0.0332,134.369,0.334,32
+Angeline Quinto,Patuloy Ang Pangarap,5,3MtaCTh4lY39FCSUda9X6E,Sana Ngayon Lang Ang Kahapon,spotify:track:3MtaCTh4lY39FCSUda9X6E,296492,0.843,0.367,0.437,1.58e-05,0.125,-5.508,0.0289,142.382,0.171,30
+Angeline Quinto,Patuloy Ang Pangarap,6,1hX8lHhrpDYcDdQSmt5DS7,Patuloy Ang Pangarap - Alternate Version,spotify:track:1hX8lHhrpDYcDdQSmt5DS7,250439,0.617,0.545,0.522,0.0,0.158,-5.407,0.0267,130.005,0.301,25
+Angeline Quinto,Patuloy Ang Pangarap,7,18A4fQkJY7QOLhPiw7iMOe,Patuloy Ang Pangarap - Brian Cua Club Diva Radio Edit,spotify:track:18A4fQkJY7QOLhPiw7iMOe,235026,0.00893,0.626,0.861,0.0,0.0511,-1.433,0.0308,127.957,0.342,6
+Angeline Quinto,Patuloy Ang Pangarap,8,5wZO4WUWcbIrrH92ihxUBq,Patuloy Ang Pangarap - Brian Cua Club Diva Extended Remix,spotify:track:5wZO4WUWcbIrrH92ihxUBq,332045,0.000973,0.658,0.838,0.000106,0.235,-1.3,0.0318,128.0,0.297,5
+Angeline Quinto,Patuloy Ang Pangarap,9,0bFeW4ideKLvloYFVgtgLZ,Kunin Mo Na Ang Lahat Sa Akin,spotify:track:0bFeW4ideKLvloYFVgtgLZ,278755,0.942,0.394,0.238,0.00016,0.0921,-9.817,0.0375,128.322,0.21,49
+Angeline Quinto,Patuloy Ang Pangarap,10,7FuTRp1ui5srFrustlwjCz,You're My Home,spotify:track:7FuTRp1ui5srFrustlwjCz,243568,0.902,0.227,0.309,0.000165,0.0825,-7.299,0.0379,138.78,0.191,29
+Angeline Quinto,Patuloy Ang Pangarap,11,2H4YtuDWSPgUQuMQDUQO6U,Ngayon,spotify:track:2H4YtuDWSPgUQuMQDUQO6U,323817,0.784,0.254,0.479,9.04e-05,0.23,-5.885,0.0319,76.381,0.154,19
+Angeline Quinto,Patuloy Ang Pangarap,12,4QfTYYGVwqoFNuXhl5xMzA,Mahiwaga,spotify:track:4QfTYYGVwqoFNuXhl5xMzA,181423,0.953,0.201,0.208,0.000973,0.121,-12.831,0.0413,77.982,0.155,23
+Angeline Quinto,Patuloy Ang Pangarap,13,5jD5rNXNFkGmjALNobYwld,Patuloy Ang Pangarap - Minus One,spotify:track:5jD5rNXNFkGmjALNobYwld,240799,0.402,0.498,0.38,0.434,0.113,-10.052,0.027,130.058,0.114,6
+Angeline Quinto,Patuloy Ang Pangarap,14,3OhPjfiFio0v7xd4ddRi9O,Muling Magmamahal - Minus One,spotify:track:3OhPjfiFio0v7xd4ddRi9O,266034,0.0736,0.58,0.356,0.691,0.101,-11.532,0.0334,144.032,0.0896,4
+Angeline Quinto,Patuloy Ang Pangarap,15,28pAw8Q4BKR9i5Q552ySy5,Panghabang Panahon - Minus One,spotify:track:28pAw8Q4BKR9i5Q552ySy5,247931,0.77,0.581,0.314,0.762,0.131,-11.737,0.0287,124.009,0.0984,4
+Angeline Quinto,Patuloy Ang Pangarap,16,07yaZ2hdTQ0ncPd9QULj45,Wag Mo Akong Iwan Mag Isa - Minus One,spotify:track:07yaZ2hdTQ0ncPd9QULj45,270135,0.382,0.358,0.121,0.262,0.15,-14.927,0.0316,135.657,0.111,4
+Angeline Quinto,Patuloy Ang Pangarap,17,6VMpDxaR3bJZNqT5VfzQJ3,Sana Ngayon Lang Ang Kahapon - Minus One,spotify:track:6VMpDxaR3bJZNqT5VfzQJ3,296545,0.365,0.521,0.278,0.902,0.131,-10.619,0.0278,141.987,0.133,4
+Angeline Quinto,Patuloy Ang Pangarap,18,3cFtgFHnRRkdbRIJdYOUBC,Patuloy Ang Pangarap - Alternate Version of Minus One,spotify:track:3cFtgFHnRRkdbRIJdYOUBC,249603,0.0894,0.599,0.425,0.673,0.161,-10.025,0.0316,130.015,0.211,4
+Jona,Shockwave,1,2N85JtbjMKeqNUgz7PqHFD,Fairytale,spotify:track:2N85JtbjMKeqNUgz7PqHFD,155586,0.000253,0.56,0.919,0.957,0.346,-4.344,0.0325,144.964,0.568,45
+Jona,Shockwave,2,1bW2JNdrpTOUew8G7UeUhP,Supernovacane,spotify:track:1bW2JNdrpTOUew8G7UeUhP,179955,0.000845,0.514,0.926,0.0345,0.0891,-3.188,0.0317,151.921,0.556,47
+Jona,Shockwave,3,0ckNlWYwtIlbl44kQefHuo,Jiggle It,spotify:track:0ckNlWYwtIlbl44kQefHuo,170820,0.00107,0.622,0.81,0.806,0.16,-4.355,0.0457,169.96,0.637,48
+Jona,Shockwave,4,4WrPZ198RawgV8uMVwkYWU,Back It Up,spotify:track:4WrPZ198RawgV8uMVwkYWU,160016,0.00663,0.754,0.865,0.000114,0.361,-3.696,0.0478,134.952,0.411,40
+Jona,Shockwave,5,4YT2CvoawmCGIHkMccm6qk,VIBR8,spotify:track:4YT2CvoawmCGIHkMccm6qk,179903,0.005,0.508,0.915,0.336,0.0892,-3.396,0.0689,114.644,0.171,51
+Jona,Shockwave,6,2OYfxjLnQuPo7Co1WH0Z1S,Bad Bitches (feat. Megan Thee Stallion),spotify:track:2OYfxjLnQuPo7Co1WH0Z1S,152414,0.00033,0.819,0.814,0.328,0.0644,-3.44,0.0382,125.965,0.464,51
+Jona,Shockwave,7,23YTJTopRwkkeX6QGsEaKc,Back In Time,spotify:track:23YTJTopRwkkeX6QGsEaKc,160877,0.0108,0.783,0.824,0.000795,0.0748,-4.558,0.0598,139.998,0.413,44
+Jona,Shockwave,8,244AoGCbxOWUhaRzTR7Spz,Hitta (feat. Juicy J),spotify:track:244AoGCbxOWUhaRzTR7Spz,170807,0.017,0.732,0.956,6.99e-06,0.357,-2.775,0.0708,145.103,0.375,59
+Jona,Shockwave,9,3LuKDSqL4z1BL8HjSwxh5b,House Party,spotify:track:3LuKDSqL4z1BL8HjSwxh5b,205126,0.0331,0.726,0.876,0.00569,0.0658,-4.204,0.16,75.026,0.569,46
+Jona,Shockwave,10,6Q7mn0KjoCZGYeuWR8pAmZ,Candy Kid,spotify:track:6Q7mn0KjoCZGYeuWR8pAmZ,129701,3.78e-05,0.61,0.979,0.584,0.114,-3.459,0.0627,150.053,0.423,40
+Jona,Shockwave,11,4cLFnU75cTHlBOMrUJcRHr,Pushin Stacks,spotify:track:4cLFnU75cTHlBOMrUJcRHr,214517,0.000655,0.622,0.902,0.523,0.22,-4.539,0.117,140.024,0.496,38
+Jona,Shockwave,12,3sOGVdj5VPY6C2XImtlzj7,Shockwave,spotify:track:3sOGVdj5VPY6C2XImtlzj7,181283,0.0231,0.577,0.875,4.69e-06,0.111,-2.897,0.0681,164.009,0.411,69
+Jona,Shockwave,1,05SFs7wMaSME4TPh5bdwUH,Fairytale,spotify:track:05SFs7wMaSME4TPh5bdwUH,155586,0.000253,0.56,0.919,0.957,0.346,-4.344,0.0325,144.964,0.568,15
+Jona,Shockwave,2,42wOmg6p5O5W80aJFiI0bZ,Supernovacane,spotify:track:42wOmg6p5O5W80aJFiI0bZ,179955,0.000845,0.514,0.926,0.0345,0.0891,-3.188,0.0317,151.921,0.556,17
+Jona,Shockwave,3,2AWl31TNxjbhxVtU3TevV6,Jiggle It,spotify:track:2AWl31TNxjbhxVtU3TevV6,170820,0.00107,0.622,0.81,0.806,0.16,-4.355,0.0457,169.96,0.637,16
+Jona,Shockwave,4,01J2CVDZemwjPUyCNAFMW4,Back It Up,spotify:track:01J2CVDZemwjPUyCNAFMW4,160016,0.00663,0.754,0.865,0.000114,0.361,-3.696,0.0478,134.952,0.411,13
+Jona,Shockwave,5,5VGOUUiAmP5MouYfeYjIQL,Vibr8,spotify:track:5VGOUUiAmP5MouYfeYjIQL,179903,0.005,0.508,0.915,0.336,0.0892,-3.396,0.0689,114.644,0.171,22
+Jona,Shockwave,6,49Fl19I0CvpN5D9ritbTt3,Bad Bitches (feat. Megan Thee Stallion),spotify:track:49Fl19I0CvpN5D9ritbTt3,152414,0.00033,0.819,0.814,0.328,0.0644,-3.44,0.0382,125.965,0.464,29
+Jona,Shockwave,7,3XeC8DBwCgeGZNamFsUWZC,Back In Time,spotify:track:3XeC8DBwCgeGZNamFsUWZC,160877,0.0108,0.783,0.824,0.000795,0.0748,-4.558,0.0598,139.998,0.413,11
+Jona,Shockwave,8,2xMndeoqgROulKzeMpjTt4,Hitta (feat. Juicy J),spotify:track:2xMndeoqgROulKzeMpjTt4,170807,0.017,0.732,0.956,6.99e-06,0.357,-2.775,0.0708,145.103,0.375,11
+Jona,Shockwave,9,6g2c8oRCMMvmx7sa69ZxK7,House Party,spotify:track:6g2c8oRCMMvmx7sa69ZxK7,205126,0.0331,0.726,0.876,0.00569,0.0658,-4.204,0.16,75.026,0.569,14
+Jona,Shockwave,10,3S9rPxowhuE1JQshpSsPIo,Candy Kid,spotify:track:3S9rPxowhuE1JQshpSsPIo,129701,3.78e-05,0.61,0.979,0.584,0.114,-3.459,0.0627,150.053,0.423,11
+Jona,Shockwave,11,3wqskpdcBxYbe9Us3Tta2V,Pushin Stacks,spotify:track:3wqskpdcBxYbe9Us3Tta2V,214517,0.000655,0.622,0.902,0.523,0.22,-4.539,0.117,140.024,0.496,10
+Jona,Shockwave,12,6cJXPnHV4E99WpUANJhufx,Shockwave,spotify:track:6cJXPnHV4E99WpUANJhufx,181283,0.0231,0.577,0.875,4.69e-06,0.111,-2.897,0.0681,164.009,0.411,17
+Jona,Shockwave,1,1hduBZcHDjaO3Vd2CjUK6U,Fairytale,spotify:track:1hduBZcHDjaO3Vd2CjUK6U,155586,0.000253,0.56,0.919,0.957,0.346,-4.344,0.0325,144.964,0.568,13
+Jona,Shockwave,2,1rZYVO0WUmTXagSErwqnHC,Supernovacane,spotify:track:1rZYVO0WUmTXagSErwqnHC,179955,0.000845,0.514,0.926,0.0345,0.0891,-3.188,0.0317,151.921,0.556,13
+Jona,Shockwave,3,4aEGoo7mwPsUgCa6ctZLmx,Jiggle It,spotify:track:4aEGoo7mwPsUgCa6ctZLmx,170820,0.00107,0.622,0.81,0.806,0.16,-4.355,0.0457,169.96,0.637,13
+Jona,Shockwave,4,6ow7cZCeoLJehqs9vAJ1np,Back It Up,spotify:track:6ow7cZCeoLJehqs9vAJ1np,160016,0.00663,0.754,0.865,0.000114,0.361,-3.696,0.0478,134.952,0.411,9
+Jona,Shockwave,5,3XEaTEcW9QS1bXlnxzkjcx,Vibr8,spotify:track:3XEaTEcW9QS1bXlnxzkjcx,179903,0.005,0.508,0.915,0.336,0.0892,-3.396,0.0689,114.644,0.171,13
+Jona,Shockwave,6,501gxDdV93Da0xzOu21Rqi,Bad Bitches,spotify:track:501gxDdV93Da0xzOu21Rqi,152414,0.00033,0.819,0.814,0.328,0.0644,-3.44,0.0382,125.965,0.464,24
+Jona,Shockwave,7,40TncdsvBdfl5K8YEPIViP,Back in Time,spotify:track:40TncdsvBdfl5K8YEPIViP,160877,0.0108,0.783,0.824,0.000795,0.0748,-4.558,0.0598,139.998,0.413,9
+Jona,Shockwave,8,5Tqfni8Eizd4Ilnw8owjbF,Hitta,spotify:track:5Tqfni8Eizd4Ilnw8owjbF,170807,0.017,0.732,0.956,6.99e-06,0.357,-2.775,0.0708,145.103,0.375,26
+Jona,Shockwave,9,00Ldd2OH5SqIooMm8QmdJj,House Party,spotify:track:00Ldd2OH5SqIooMm8QmdJj,205126,0.0331,0.726,0.876,0.00569,0.0658,-4.204,0.16,75.026,0.569,10
+Jona,Shockwave,10,5HauU5hk58a1elqsxP0dfR,Candy Kid,spotify:track:5HauU5hk58a1elqsxP0dfR,129701,3.78e-05,0.61,0.979,0.584,0.114,-3.459,0.0627,150.053,0.423,7
+Jona,Shockwave,11,5IBGxuHbWHgbPrin3VrtsM,Pushin Stacks,spotify:track:5IBGxuHbWHgbPrin3VrtsM,214517,0.000655,0.622,0.902,0.523,0.22,-4.539,0.117,140.024,0.496,6
+Jona,Shockwave,12,5lrk4m2CQnHKqbgCLw2w8g,Shockwave,spotify:track:5lrk4m2CQnHKqbgCLw2w8g,181283,0.0231,0.577,0.875,4.69e-06,0.111,-2.897,0.0681,164.009,0.411,32
+Jona,Shockwave,1,2JKKXcbbGoMLs4vgOA7xK9,Fairytale,spotify:track:2JKKXcbbGoMLs4vgOA7xK9,155586,0.000253,0.56,0.919,0.957,0.346,-4.344,0.0325,144.964,0.568,26
+Jona,Shockwave,2,0e7J2oSftYQZPJ7JnX7k8e,Supernovacane,spotify:track:0e7J2oSftYQZPJ7JnX7k8e,179955,0.000845,0.514,0.926,0.0345,0.0891,-3.188,0.0317,151.921,0.556,19
+Jona,Shockwave,3,3F47z47tgQqKeN0cutN5qG,Jiggle It,spotify:track:3F47z47tgQqKeN0cutN5qG,170820,0.00107,0.622,0.81,0.806,0.16,-4.355,0.0457,169.96,0.637,18
+Jona,Shockwave,4,0OsIIjUneF8iZk5QULuEzk,Back It Up,spotify:track:0OsIIjUneF8iZk5QULuEzk,160016,0.00719,0.759,0.848,7.81e-05,0.393,-3.726,0.0483,134.961,0.473,15
+Jona,Shockwave,5,0AJcamXeUmz7Td2Tfxc7E6,VIBR8,spotify:track:0AJcamXeUmz7Td2Tfxc7E6,179903,0.00714,0.654,0.907,0.339,0.0927,-3.551,0.0703,171.911,0.233,40
+Jona,Shockwave,6,3u11gPCjTAm6q6ETlowvRu,Bad Bitches (feat. Megan Thee Stallion),spotify:track:3u11gPCjTAm6q6ETlowvRu,152414,0.000306,0.803,0.816,0.61,0.0644,-3.473,0.0372,125.98,0.464,26
+Jona,Shockwave,7,6PsWlc2V5mtu7ln3lkVJJM,Back In Time,spotify:track:6PsWlc2V5mtu7ln3lkVJJM,160877,0.0108,0.783,0.824,0.000795,0.0748,-4.558,0.0598,139.998,0.413,17
+Jona,Shockwave,8,4trrKVzHcXRV5Gv8YAf32P,Hitta (feat. Juicy J),spotify:track:4trrKVzHcXRV5Gv8YAf32P,170807,0.00794,0.746,0.938,1.6e-05,0.354,-2.822,0.0658,145.012,0.238,50
+Jona,Shockwave,9,5jjoY9fwFBcRtQFkkDvWnL,House Party,spotify:track:5jjoY9fwFBcRtQFkkDvWnL,205126,0.0331,0.726,0.876,0.00569,0.0658,-4.204,0.16,75.026,0.569,14
+Jona,Shockwave,10,1YFhbm7OFmGzdJZEpAGCIV,Candy Kid,spotify:track:1YFhbm7OFmGzdJZEpAGCIV,129701,3.78e-05,0.61,0.979,0.584,0.114,-3.459,0.0627,150.053,0.423,14
+Jona,Shockwave,11,5sBN6hOuP9hy0a8AHcWwzl,Pushin Stacks,spotify:track:5sBN6hOuP9hy0a8AHcWwzl,214517,0.000655,0.622,0.902,0.523,0.22,-4.539,0.117,140.024,0.496,12
+Jona,Shockwave,12,7N1SXG46BWkPX7EmE8EmIi,Shockwave,spotify:track:7N1SXG46BWkPX7EmE8EmIi,181283,0.0231,0.577,0.875,4.69e-06,0.111,-2.897,0.0681,164.009,0.411,30
+Jona,Shockwave,1,0LWhroGAC08Y2fnyps24Pk,Fairytale,spotify:track:0LWhroGAC08Y2fnyps24Pk,155586,0.000253,0.56,0.919,0.957,0.346,-4.344,0.0325,144.964,0.568,0
+Jona,Shockwave,2,7kT9dqiUQhhjdiAU62pPMb,Supernovacane,spotify:track:7kT9dqiUQhhjdiAU62pPMb,179955,0.000845,0.514,0.926,0.0345,0.0891,-3.188,0.0317,151.921,0.556,0
+Jona,Shockwave,3,38wWnLpt2ax4dcqv1zFXRs,Jiggle It,spotify:track:38wWnLpt2ax4dcqv1zFXRs,170820,0.00107,0.622,0.81,0.806,0.16,-4.355,0.0457,169.96,0.637,0
+Jona,Shockwave,4,57O2FfxELDyu3HCbnt2xBP,Back It Up,spotify:track:57O2FfxELDyu3HCbnt2xBP,160016,0.00719,0.759,0.848,7.81e-05,0.393,-3.726,0.0483,134.961,0.473,0
+Jona,Shockwave,5,2xPYYroORlmvMFqcyzY7Ea,Vibr8,spotify:track:2xPYYroORlmvMFqcyzY7Ea,179903,0.00714,0.654,0.907,0.339,0.0927,-3.551,0.0703,171.911,0.233,0
+Jona,Shockwave,6,2A2KuKH2z1rffCwTM1XSxy,Bad Bitches,spotify:track:2A2KuKH2z1rffCwTM1XSxy,152414,0.000306,0.803,0.816,0.61,0.0644,-3.473,0.0372,125.98,0.464,0
+Jona,Shockwave,7,6ed1lBLIhu3qh0g4AVfYkU,Back in Time,spotify:track:6ed1lBLIhu3qh0g4AVfYkU,160877,0.0108,0.783,0.824,0.000795,0.0748,-4.558,0.0598,139.998,0.413,0
+Jona,Shockwave,8,65K8VVI6U0r1T5fCpooglH,Hitta,spotify:track:65K8VVI6U0r1T5fCpooglH,170807,0.00794,0.746,0.938,1.6e-05,0.354,-2.822,0.0658,145.012,0.238,0
+Jona,Shockwave,9,70clgv75NzZgtwZq8aQfqE,House Party,spotify:track:70clgv75NzZgtwZq8aQfqE,205126,0.0331,0.726,0.876,0.00569,0.0658,-4.204,0.16,75.026,0.569,0
+Jona,Shockwave,10,317bBdWY29WwFufRH6QPMN,Candy Kid,spotify:track:317bBdWY29WwFufRH6QPMN,129701,3.78e-05,0.61,0.979,0.584,0.114,-3.459,0.0627,150.053,0.423,0
+Jona,Shockwave,11,6yiQkOnDIyX6cBLqoSJ79a,Pushin Stacks,spotify:track:6yiQkOnDIyX6cBLqoSJ79a,214517,0.000655,0.622,0.902,0.523,0.22,-4.539,0.117,140.024,0.496,0
+Jona,Shockwave,12,7qsfApvFpjkxxUBIBuMzBv,Shockwave,spotify:track:7qsfApvFpjkxxUBIBuMzBv,181283,0.0231,0.577,0.875,4.69e-06,0.111,-2.897,0.0681,164.009,0.411,0
+Jona,Shockwave (Clean),1,1C433JH211rPoSDxm2pE5y,Fairytale,spotify:track:1C433JH211rPoSDxm2pE5y,155586,0.000253,0.56,0.919,0.957,0.346,-4.344,0.0325,144.964,0.568,1
+Jona,Shockwave (Clean),2,5SPLx7oJ4H7JKgJ0cYoHoH,Supernovacane,spotify:track:5SPLx7oJ4H7JKgJ0cYoHoH,179955,0.000845,0.514,0.926,0.0345,0.0891,-3.188,0.0317,151.921,0.556,1
+Jona,Shockwave (Clean),3,6ztOhEstx6jBiFtEYnwsgp,Jiggle It,spotify:track:6ztOhEstx6jBiFtEYnwsgp,170820,0.00107,0.622,0.81,0.806,0.16,-4.355,0.0457,169.96,0.637,1
+Jona,Shockwave (Clean),4,6IcZUgxt1UDRUVrmEmGFXk,Back It Up,spotify:track:6IcZUgxt1UDRUVrmEmGFXk,160016,0.00719,0.759,0.848,7.81e-05,0.393,-3.726,0.0483,134.961,0.473,1
+Jona,Shockwave (Clean),5,7qhny1sYYvrtCH1Gu2uIIL,Vibr8,spotify:track:7qhny1sYYvrtCH1Gu2uIIL,179903,0.00714,0.654,0.907,0.339,0.0927,-3.551,0.0703,171.911,0.233,3
+Jona,Shockwave (Clean),6,71YSynT1wel4M204qjoXFU,Bad Bitches (feat. Megan Thee Stallion),spotify:track:71YSynT1wel4M204qjoXFU,152414,0.000306,0.803,0.816,0.61,0.0644,-3.473,0.0372,125.98,0.464,0
+Jona,Shockwave (Clean),7,3EUI59UhPp2UJ4lqz05gYy,Back In Time,spotify:track:3EUI59UhPp2UJ4lqz05gYy,160877,0.0108,0.783,0.824,0.000795,0.0748,-4.558,0.0598,139.998,0.413,1
+Jona,Shockwave (Clean),8,7etrrxXEKhrFlunHPtMbqK,Hitta (feat. Juicy J),spotify:track:7etrrxXEKhrFlunHPtMbqK,170807,0.00794,0.746,0.938,1.6e-05,0.354,-2.822,0.0658,145.012,0.238,1
+Jona,Shockwave (Clean),9,6X238vVjWhqKSKY9LNmz0g,House Party,spotify:track:6X238vVjWhqKSKY9LNmz0g,205126,0.0331,0.726,0.876,0.00569,0.0658,-4.204,0.16,75.026,0.569,1
+Jona,Shockwave (Clean),10,1EDDlRIfrqnMU2nKO4khVM,Candy Kid,spotify:track:1EDDlRIfrqnMU2nKO4khVM,129701,3.78e-05,0.61,0.979,0.584,0.114,-3.459,0.0627,150.053,0.423,1
+Jona,Shockwave (Clean),11,6CHuKkM6MznTfM6dP7ZaNd,Pushin Stacks,spotify:track:6CHuKkM6MznTfM6dP7ZaNd,214517,0.000655,0.622,0.902,0.523,0.22,-4.539,0.117,140.024,0.496,1
+Jona,Shockwave (Clean),12,3n8iNlbe92dczwJixY8Drs,Shockwave,spotify:track:3n8iNlbe92dczwJixY8Drs,181283,0.0231,0.577,0.875,4.69e-06,0.111,-2.897,0.0681,164.009,0.411,35
+Jona,Joytime III,1,7DyYqU6pn8blguCw3S377E,Down,spotify:track:7DyYqU6pn8blguCw3S377E,153000,0.0014,0.677,0.947,0.0688,0.0712,-3.814,0.0538,142.008,0.798,47
+Jona,Joytime III,2,41MlSJxqdr60xsfYocAgRA,Run it Up,spotify:track:41MlSJxqdr60xsfYocAgRA,142500,0.0084,0.422,0.875,1.07e-06,0.396,-3.3,0.296,71.761,0.594,49
+Jona,Joytime III,3,4srEnH4a9pgerTW1qSGluW,Put Yo Hands Up,spotify:track:4srEnH4a9pgerTW1qSGluW,196000,0.00149,0.583,0.932,0.633,0.0815,-2.485,0.0871,150.034,0.244,43
+Jona,Joytime III,4,4PjUYYuloevuVVj3uq3tVk,Let's Get Down,spotify:track:4PjUYYuloevuVVj3uq3tVk,162500,0.0224,0.747,0.793,0.533,0.341,-2.998,0.111,145.012,0.669,40
+Jona,Joytime III,5,1EwZrwFcKH1CKsxgHborBR,Sad Songs,spotify:track:1EwZrwFcKH1CKsxgHborBR,195028,0.0277,0.641,0.837,0.0,0.152,-2.947,0.182,150.047,0.82,47
+Jona,Joytime III,6,58Xx6ZPFsi6bqkFFZe0GD0,Set Me Free,spotify:track:58Xx6ZPFsi6bqkFFZe0GD0,182857,0.000437,0.918,0.723,0.141,0.124,-4.099,0.0653,126.046,0.393,38
+Jona,Joytime III,7,4pCaBJPDbw1HFzwsQZlIgb,Room to Fall,spotify:track:4pCaBJPDbw1HFzwsQZlIgb,180997,0.0037,0.531,0.845,1.58e-05,0.275,-5.362,0.164,175.898,0.537,46
+Jona,Joytime III,8,3tld41qK6W6xBMea9WIhLC,Angklung Life,spotify:track:3tld41qK6W6xBMea9WIhLC,189000,0.0274,0.729,0.982,0.106,0.278,-3.028,0.0634,126.024,0.404,36
+Jona,Joytime III,9,2W9QUD9YJ4SERyzu25IwbU,Earthquake,spotify:track:2W9QUD9YJ4SERyzu25IwbU,148000,0.0162,0.453,0.968,5.94e-05,0.153,-4.734,0.104,75.102,0.432,42
+Jona,Joytime III,10,6VEUzJzGo16QRnFvUpv4pQ,Falling To Pieces,spotify:track:6VEUzJzGo16QRnFvUpv4pQ,166000,5.12e-05,0.607,0.875,0.00318,0.445,-2.686,0.0476,146.188,0.131,44
+Jona,Joytime III,11,5JfWqjclLkOUanKF8NHpOK,Here We Go Again,spotify:track:5JfWqjclLkOUanKF8NHpOK,186000,0.0832,0.738,0.867,0.828,0.263,-3.033,0.127,147.016,0.443,40
+Jona,Joytime III,12,35rozLoS6QLE8HX8qswM3k,Rescue Me,spotify:track:35rozLoS6QLE8HX8qswM3k,237203,0.00803,0.433,0.905,0.0,0.337,-2.171,0.101,148.149,0.375,61
+Jona,Joytime III,13,4YXKVaWzHaVyDq2pVS5cgR,Proud,spotify:track:4YXKVaWzHaVyDq2pVS5cgR,191000,0.0372,0.521,0.716,0.0,0.148,-4.999,0.0364,77.562,0.12,55
+Jona,Joytime II,1,6GRMKQ3RrivYgLEO6h7ebu,Stars,spotify:track:6GRMKQ3RrivYgLEO6h7ebu,246760,0.0132,0.507,0.96,0.971,0.0703,-2.619,0.0394,142.029,0.801,55
+Jona,Joytime II,2,6kwH41LJ6hfxlGn2c4oh6Y,Together,spotify:track:6kwH41LJ6hfxlGn2c4oh6Y,246760,0.00114,0.567,0.703,0.921,0.101,-2.08,0.0311,142.019,0.309,49
+Jona,Joytime II,3,6pbhkfdG5RvTJaC3VKPaJn,Rooftops,spotify:track:6pbhkfdG5RvTJaC3VKPaJn,177464,0.0292,0.704,0.907,0.0,0.195,-3.95,0.0672,141.988,0.657,51
+Jona,Joytime II,4,1LwVrOwwPJPU5lVuQDPnGA,Check This Out,spotify:track:1LwVrOwwPJPU5lVuQDPnGA,219718,0.000874,0.624,0.97,0.548,0.545,-0.975,0.0788,142.019,0.869,45
+Jona,Joytime II,5,0gsDBm94QELEJAcGS59f1b,Flashbacks,spotify:track:0gsDBm94QELEJAcGS59f1b,165633,0.0052,0.58,0.901,0.698,0.111,-0.958,0.0326,142.031,0.427,42
+Jona,Joytime II,6,1FPJZZjcwG2IGF0UVLrmKL,Tell Me,spotify:track:1FPJZZjcwG2IGF0UVLrmKL,158400,0.00651,0.558,0.919,0.789,0.196,-1.948,0.0426,150.049,0.839,42
+Jona,Joytime II,7,7fEfIU4ZVvB5Wb6xg2zcvx,Paralyzed,spotify:track:7fEfIU4ZVvB5Wb6xg2zcvx,219718,0.00696,0.5,0.956,0.00138,0.533,-1.363,0.0468,141.975,0.123,43
+Jona,Joytime II,8,621yo2vtUSnmTfmENTKoNm,Power,spotify:track:621yo2vtUSnmTfmENTKoNm,222000,0.00292,0.58,0.895,0.731,0.079,-3.702,0.0367,140.023,0.97,43
+Jona,Joytime II,9,5UthTi0MlB4K0TznWFynNn,Imagine,spotify:track:5UthTi0MlB4K0TznWFynNn,231272,0.00169,0.7,0.933,0.0517,0.424,-1.366,0.0316,110.047,0.234,41
+Jona,Joytime,1,1aS1uzcAC14lduwuNJZjqE,Know Me,spotify:track:1aS1uzcAC14lduwuNJZjqE,206197,0.00635,0.664,0.844,0.00285,0.542,-5.012,0.0405,142.056,0.557,46
+Jona,Joytime,2,1Hk0QRlUFCHYG6zIvUh0Xd,Summer,spotify:track:1Hk0QRlUFCHYG6zIvUh0Xd,233239,0.00695,0.583,0.748,0.0241,0.22,-4.798,0.0292,142.029,0.254,58
+Jona,Joytime,3,6aWiGv6hPG0o3ri7QHNs8t,Find Me,spotify:track:6aWiGv6hPG0o3ri7QHNs8t,180000,0.00012,0.557,0.889,0.000225,0.325,-4.045,0.0499,142.015,0.173,49
+Jona,Joytime,4,2D6VbgcGFSBhhZJHbVAN1Q,Take It Back,spotify:track:2D6VbgcGFSBhhZJHbVAN1Q,233239,0.0172,0.591,0.909,0.694,0.743,-4.376,0.0542,142.065,0.192,45
+Jona,Joytime,5,05KizhJc5qATFI2D7SauJ5,Bounce,spotify:track:05KizhJc5qATFI2D7SauJ5,212571,0.0119,0.593,0.979,0.897,0.175,-4.151,0.0634,140.038,0.0992,41
+Jona,Joytime,6,4wXum3jZgEGLxScTygQ5US,Blocks,spotify:track:4wXum3jZgEGLxScTygQ5US,209577,0.000163,0.555,0.844,0.00617,0.426,-2.096,0.0705,142.115,0.563,46
+Jona,Joytime,7,1KDX8TC34n6CNryBEEMclR,Show You,spotify:track:1KDX8TC34n6CNryBEEMclR,177464,7.78e-05,0.507,0.969,0.935,0.173,-3.643,0.0395,142.006,0.242,42
+Jona,Joytime,8,1V3BpCUSyBt9PDZ309652A,Want U 2,spotify:track:1V3BpCUSyBt9PDZ309652A,182535,0.01,0.708,0.936,0.951,0.194,-2.099,0.0432,141.989,0.73,43
+Jona,Joytime,9,68pL3hokJXKJ1vJSaEhKr7,Home,spotify:track:68pL3hokJXKJ1vJSaEhKr7,228413,0.00551,0.562,0.885,0.805,0.0621,-3.096,0.0431,145.06,0.692,44
+Jona,Joytime,10,0Q3SC6kEhxYagDP3bFe5K9,Keep It Mello (feat. Omar LinX),spotify:track:0Q3SC6kEhxYagDP3bFe5K9,243380,0.00134,0.686,0.888,0.000689,0.0736,-3.348,0.0857,142.015,0.108,60
+Morissette,"Morissette at 14, Vol. 2",1,6f248KBfVTSUU8EJ6ibHrM,What Do You See in Me (2021 Piano Version),spotify:track:6f248KBfVTSUU8EJ6ibHrM,191523,0.793,0.502,0.426,0.0,0.107,-3.383,0.0284,84.002,0.268,28
+Morissette,"Morissette at 14, Vol. 2",2,7Ca2H8G6YsjpUWJQUDxtCT,Can't Hold a Candle,spotify:track:7Ca2H8G6YsjpUWJQUDxtCT,207147,0.409,0.657,0.598,0.0,0.141,-3.578,0.0299,119.98,0.42,27
+Morissette,"Morissette at 14, Vol. 2",3,2yW8L6GvFFdKGhBqGrUk2q,Don't Forget,spotify:track:2yW8L6GvFFdKGhBqGrUk2q,199487,0.142,0.572,0.87,0.0,0.0407,-3.713,0.0382,136.961,0.655,25
+Morissette,"Morissette at 14, Vol. 2",4,12XJqY3vwmBeiNo0Zdfjw1,Ring Ring Ring,spotify:track:12XJqY3vwmBeiNo0Zdfjw1,189260,0.00035,0.594,0.728,4.95e-06,0.0635,-2.831,0.0394,129.98,0.84,25
+Morissette,"Morissette at 14, Vol. 2",5,2v7q9mr7pWtIw3CK3fuAd9,All of the Above,spotify:track:2v7q9mr7pWtIw3CK3fuAd9,213844,0.0791,0.625,0.881,0.0,0.719,-2.111,0.0466,115.993,0.586,24
+Morissette,"Morissette at 14, Vol. 2",6,6g2QCJa5KygsN0grpTzJAz,Handle It,spotify:track:6g2QCJa5KygsN0grpTzJAz,197153,0.167,0.67,0.63,0.0,0.653,-3.112,0.173,108.731,0.909,19
+Morissette,"Morissette at 14, Vol. 2",7,3J4ZEKhuUxTWjUCcjVk64L,Leave Em at the Door,spotify:track:3J4ZEKhuUxTWjUCcjVk64L,166427,0.104,0.686,0.862,0.0,0.823,-2.728,0.152,99.98,0.57,23
+Morissette,"Morissette at 14, Vol. 2",8,2orItodWIgoDLcTbPxqjmL,Swat da Bug,spotify:track:2orItodWIgoDLcTbPxqjmL,188881,0.0272,0.688,0.858,0.0,0.548,-2.095,0.128,100.154,0.925,20
+Morissette,"Morissette at 14, Vol. 1",1,3GLe8gHjxFUb4utOaaG69H,Look What You've Done,spotify:track:3GLe8gHjxFUb4utOaaG69H,255127,0.683,0.452,0.549,0.0,0.332,-4.703,0.0274,168.002,0.367,25
+Morissette,"Morissette at 14, Vol. 1",2,4zLJPCxD78xOgMQ3z4ofoY,Don't Let Go,spotify:track:4zLJPCxD78xOgMQ3z4ofoY,235288,0.274,0.533,0.594,0.0,0.136,-4.83,0.0277,109.966,0.151,26
+Morissette,"Morissette at 14, Vol. 1",3,70wKpydEExbnT1QJl8onxt,You Wouldn't Believe Me,spotify:track:70wKpydEExbnT1QJl8onxt,232469,0.551,0.442,0.545,0.0,0.198,-3.681,0.028,129.457,0.141,24
+Morissette,"Morissette at 14, Vol. 1",4,634pM5YJnpbYluFGSfL6kj,Talk to Me Sweetly,spotify:track:634pM5YJnpbYluFGSfL6kj,207158,0.677,0.537,0.658,0.0,0.217,-3.746,0.0332,126.15,0.157,23
+Morissette,"Morissette at 14, Vol. 1",5,1U9uGxxeanjJHEwEhwr1be,What Do You See in Me,spotify:track:1U9uGxxeanjJHEwEhwr1be,213000,0.491,0.336,0.508,0.0,0.102,-4.577,0.0287,167.108,0.24,17
+Morissette,"Morissette at 14, Vol. 1",6,5F9ISpdcNyZjDrzCCYvuxS,Up to You,spotify:track:5F9ISpdcNyZjDrzCCYvuxS,212139,0.274,0.475,0.589,0.0,0.107,-4.212,0.0275,149.735,0.224,23
+Morissette,"Morissette at 14, Vol. 1",7,75mlcREQfQuJfXkJGbA3WG,Only Want to Love You,spotify:track:75mlcREQfQuJfXkJGbA3WG,213158,0.302,0.433,0.608,0.0,0.165,-4.62,0.0283,78.009,0.203,24
+Morissette,"Morissette at 14, Vol. 1",8,0tAJv04DVpYYswxcGweH1g,Ring Ring Ring (2020 MIX),spotify:track:0tAJv04DVpYYswxcGweH1g,181384,0.0131,0.38,0.594,3.84e-06,0.143,-4.134,0.0428,130.118,0.283,16
+Morissette,Morissette,1,22ZjYxCtQBd6bOahpN0CBv,Throwback,spotify:track:22ZjYxCtQBd6bOahpN0CBv,256447,0.494,0.727,0.835,0.0,0.354,-5.358,0.0611,145.996,0.962,32
+Morissette,Morissette,2,4ZsaVVO1gaTR3BrqdtHb1C,Di Mapaliwanag,spotify:track:4ZsaVVO1gaTR3BrqdtHb1C,194902,0.336,0.658,0.483,0.000393,0.119,-7.673,0.0267,93.973,0.242,44
+Morissette,Morissette,3,6GWGvXLYAWmPoGLNrQufiC,Hinahanap Pa Rin,spotify:track:6GWGvXLYAWmPoGLNrQufiC,242184,0.678,0.325,0.358,9.61e-06,0.0759,-8.094,0.0377,132.361,0.121,33
+Morissette,Morissette,4,3iOmvu7fbgUNcbmWs6YlbU,"Mahal Kita, Mahal Mo Sya, Mahal Nya Ay Iba",spotify:track:3iOmvu7fbgUNcbmWs6YlbU,274994,0.692,0.512,0.414,2.33e-05,0.372,-8.726,0.0316,139.918,0.168,31
+Morissette,Morissette,5,68njfa6k19aGCPvCLzKOMk,You and I,spotify:track:68njfa6k19aGCPvCLzKOMk,239441,0.154,0.466,0.373,0.000886,0.237,-8.847,0.0301,71.998,0.19,38
+Morissette,Morissette,6,2Cd9UYSrX0iE3DBm4VPAAa,Akin Ka Na Lang - Acoustic,spotify:track:2Cd9UYSrX0iE3DBm4VPAAa,260261,0.853,0.577,0.218,0.0,0.11,-13.293,0.0403,129.407,0.21,40
+Morissette,Morissette,7,3AWaHa4tXgLVTk1Li818j2,Anong Nangyari Sa Ating Dalawa - Minus One,spotify:track:3AWaHa4tXgLVTk1Li818j2,287245,0.952,0.238,0.118,0.466,0.181,-15.37,0.0352,142.478,0.0785,28
+Morissette,Morissette,8,5i74AYZqulf7csDNVnXzYN,"Anong Nangyari Sa Ating Dalawa - From ""Two Wives Main""",spotify:track:5i74AYZqulf7csDNVnXzYN,289230,0.961,0.314,0.185,0.00039,0.156,-10.128,0.0359,145.868,0.175,38
+Morissette,Morissette,9,4eNvchiaWf4Glh0AT2exds,Akin Ka Na Lang - Himig Handog Pop Lovesongs 2014 Version,spotify:track:4eNvchiaWf4Glh0AT2exds,258876,0.153,0.508,0.537,8.6e-06,0.15,-6.689,0.0275,129.9,0.16,58
+Morissette,Morissette,10,5qKclh4S0LJSmbl4pwqsfO,"Kapag Ako Ay Nagmahal - From ""Flordeliza""",spotify:track:5qKclh4S0LJSmbl4pwqsfO,313812,0.589,0.264,0.353,0.101,0.139,-7.133,0.029,145.411,0.0978,40
+Morissette,Morissette,11,1qoXYfWILyuN0EatImGlma,"Nothing's Gonna Stop Us Now - From ""Crazy Beautiful You""",spotify:track:1qoXYfWILyuN0EatImGlma,258014,0.216,0.528,0.603,0.0,0.304,-5.883,0.0296,185.998,0.482,60
+Morissette,Morissette,12,6UH6huHCGfm154NQ7MVIxE,Di Mapaliwanag - Minus One,spotify:track:6UH6huHCGfm154NQ7MVIxE,193805,0.188,0.494,0.429,0.932,0.12,-10.884,0.0291,188.031,0.351,26
+Morissette,Morissette,13,66wsdi9LWCX6F2zhnwsm0h,Akin Ka Na Lang - Minus One,spotify:track:66wsdi9LWCX6F2zhnwsm0h,258876,0.00678,0.537,0.439,0.139,0.152,-11.567,0.0278,130.014,0.0939,26
+Morissette,Morissette,14,2RVnhI8fmBDlEdwiOP6YBM,Hinahanap Pa Rin - Minus One,spotify:track:2RVnhI8fmBDlEdwiOP6YBM,242184,0.522,0.452,0.258,0.72,0.0741,-13.496,0.0282,134.01,0.0801,25
+Morissette,Morissette,15,1NBWY3IjpqNGX6YX89pumV,You and I - Minus One,spotify:track:1NBWY3IjpqNGX6YX89pumV,239441,0.0836,0.512,0.326,0.629,0.25,-12.522,0.0285,144.035,0.0657,24
+Morissette,Morissette,16,0196yM0Cf8ss46XH2ap7WA,Kapag Ako Ay Nagmahal - Minus One,spotify:track:0196yM0Cf8ss46XH2ap7WA,313812,0.136,0.215,0.242,0.772,0.156,-11.694,0.0303,145.302,0.139,25

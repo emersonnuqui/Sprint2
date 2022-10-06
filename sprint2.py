@@ -4,6 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import matplotlib.font_manager as font_manager
+import keyring
+import getpass
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+import time
+import streamlit.components.v1 as components
 
 #Set font for graphs
 fontpath = ['font/spotify']
@@ -51,7 +57,7 @@ def load_data():
 
 def introduction():
     # Write the title and the subheader
-    subheader = '<p style="font-size: 70px; font-weight:800; text-align: center;">Bringing Morissette to even higher heights</p>'
+    subheader = '<p style="font-size: 80px; font-weight:800; text-align: center;">Morissette: A New “Birit” Era</p>'
     st.markdown(subheader, unsafe_allow_html=True)
 
     st.markdown(' ')
@@ -64,7 +70,7 @@ def introduction():
 
     col2.markdown(' ')
     col2.markdown(' ')
-    captions = '<p style="font-size: 40px; font-weight:700; color:#1DB954; text-align: center;">Why Morissette?</p>'
+    captions = '<p style="font-size: 50px; font-weight:700; color:#1DB954; text-align: center;">Why Morissette?</p>'
     col2.markdown(captions, unsafe_allow_html=True)
     col2.markdown(' ')
     col2.markdown(' ')
@@ -78,7 +84,7 @@ def introduction():
     col2.markdown(reasons, unsafe_allow_html=True)
 
 def artist():
-    st.image("morissette.jpg")
+    st.image("morissette.jpg", width=1500)
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")
@@ -485,6 +491,27 @@ def recommender_engine():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Recommender Engine</p>'
     st.markdown(title, unsafe_allow_html=True)
 
+        
+def playlist():
+    playlist = '<p style="font-size: 70px; font-weight:800; text-align: center;">Playlist</p>'
+    st.markdown(playlist, unsafe_allow_html=True)
+
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+    st.markdown(
+            '<p style="font-size: 36px; font-weight:800; text-align: center;">Playlist 1: SB19’s New Sound</p>', unsafe_allow_html=True
+        )
+    st.markdown(
+            '<p style="font-size: 24px; font-weight:800; text-align: center;">Seed Track: *Vibe With Me by Matthiaos*</p>' , unsafe_allow_html=True
+        )
+    components.iframe("https://open.spotify.com/embed/track/0G5qmu4TsdUH19zdcbI9Ui", height=80)
+    components.iframe("https://open.spotify.com/embed/playlist/2rjCAavNHd1vQvWwsfYQw5", height=380, scrolling=True)
+    st.markdown(
+            "*Vibe With Me* was chosen due" , unsafe_allow_html=True
+        )
+
 def conclusion():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Insights and Recommendations</p>'
     st.markdown(title, unsafe_allow_html=True)
@@ -492,17 +519,18 @@ def conclusion():
 st.sidebar.markdown('<p style="font-size: 25px; font-weight:700; color:black; text-align: center;">Main Pages</p>', unsafe_allow_html=True)
 
 list_of_pages = [
-    "Bringing Morissette to even higher heights",
+    "Morissette:A New “Birit” Era",
     "Morissette",
     "Morissette and competitors",
     "EDA",
     "Methodology",
     "Recommender Engine",
+    "Playlist",
     "Insights and Recommendations"
 ]
 selection = st.sidebar.radio("Go to: ", list_of_pages)
 
-if selection == "Bringing Morissette to even higher heights":
+if selection == "Morissette:A New “Birit” Era":
     introduction()
 elif selection == "Morissette":
     artist()
@@ -514,5 +542,7 @@ elif selection == "Methodology":
     methodology()
 elif selection == "Recommender Engine":
     recommender_engine()
+elif selection == "Playlist":
+    playlist()
 elif selection == "Insights and Recommendations":
     conclusion()

@@ -4,9 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import matplotlib.font_manager as font_manager
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-import time
 import streamlit.components.v1 as components
 
 #Set font for graphs

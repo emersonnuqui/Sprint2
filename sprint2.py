@@ -77,7 +77,7 @@ def introduction():
     col2.markdown(reasons, unsafe_allow_html=True)
 
 def artist():
-    st.image("images\morissette.jpg", width=1500)
+    st.image("images/morissette.jpg", width=1500)
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")

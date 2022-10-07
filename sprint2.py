@@ -282,7 +282,11 @@ def eda():
     col1.markdown(' ')
     col1.markdown(' ')
     col1.markdown(' ')
-    caption = '<p style="font-size: 30px; font-weight:400; text-align: center;">Explanation Here</p>'
+    caption = '''
+    <p style="font-size: 30px; font-weight:400; text-align: left;">Compared to her contemporaries, Morissette’s songs are:</p>
+    <p style="font-size: 30px; font-weight:400; text-align: center; color:#1DB954;">Quieter</p>
+    <p style="font-size: 30px; font-weight:400; text-align: center; color:#1DB954;">Higher energy</p>
+    <p style="font-size: 30px; font-weight:400; text-align: center; color:#1DB954;">More acoustic </p> '''
     col1.markdown(caption, unsafe_allow_html=True)
 
     with col2:
@@ -302,7 +306,7 @@ def eda():
             st.image("images/speechiness.png", width=900)
             
         elif option1 == "acousticness":
-            st.image("images/acousticess.png", width=900)
+            st.image("images/acoustiness.png", width=900)
             
         elif option1 == "instrumentalness":
             st.image("images/instrumentalness.png", width=900)
@@ -319,14 +323,116 @@ def methodology():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Methodology</p>'
     st.markdown(title, unsafe_allow_html=True)
 
+    method = '''
+    <p style="font-size: 40px; font-weight:400; text-align: left;"><b style="color:#1DB954;">1. Determine Genre</b> </p>
+    <p style="font-size: 25px; font-weight:400; text-align: left;">Using the data collected from Spotify, determine the similar genre to her songs.</p>
+    <p style="font-size: 40px; font-weight:400; text-align: left;"><b style="color:#1DB954;">2. Modelling </b></p>
+    <p style="font-size: 25px; font-weight:400; text-align: left;">Using machine learning, analyze audio features to give grounded recommendations to boost her listenership.</p>
+    '''
+    st.markdown(method, unsafe_allow_html=True)
 
-    st.image('images/methodology.jpg')
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.image('images/methodology.jpg',width=1500)
 
 def recommender_engine():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Recommender Engine</p>'
     st.markdown(title, unsafe_allow_html=True)
 
-        
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+
+    track1 = '<p style="font-size: 55px; font-weight:800; text-align: center; color:#1DB954;">Morissette’s Genre Recommender Track</p>'
+    st.markdown(track1, unsafe_allow_html=True)
+
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+
+    col1, col2, col3 = st.columns(3)
+    seed = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Seed Track</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Akin Ka Na Lang</p>
+    '''
+    col1.markdown(seed, unsafe_allow_html=True)
+
+    reco = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Recommender Pool</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Pooled tracks of selected genre, playlists with predicted genre</p>
+    '''
+    col2.markdown(reco, unsafe_allow_html=True)
+    col2.markdown(" ")
+    col2.markdown(" ")
+    col2.markdown(" ")
+    genres = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Genres</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">R&B, Rock, Folk, Dance Pop, Jazz</p>
+    '''
+    col2.markdown(genres, unsafe_allow_html=True)
+
+    similar = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Similarity Metric</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Cosine Similarity, Genre Probability</p>
+    '''
+    col3.markdown(similar, unsafe_allow_html=True)
+
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+
+    col1, col2 = st.columns(2)
+    knn = '''
+    <p style="font-size: 45px; font-weight:800; text-align: center;">KNN Accuracy: <b style="color:#1DB954;">66%</b></p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Optimal KNN = 22</p>
+    '''
+    col1.markdown(knn, unsafe_allow_html=True)
+
+    svm = '''
+    <p style="font-size: 45px; font-weight:800; text-align: center;">SVM Accuracy: <b style="color:#1DB954;">65%</b></p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Kernel = RBF</p>
+    '''
+    col2.markdown(svm, unsafe_allow_html=True)
+    
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+
+    track1 = '<p style="font-size: 55px; font-weight:800; text-align: center; color:#1DB954;">Morissette’s Genre Recommender Playlist</p>'
+    st.markdown(track1, unsafe_allow_html=True)
+
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown(" ")
+
+    col1, col2, col3 = st.columns(3)
+    seed = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Seed Track</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">State of Grace (Acoustic Version) (Taylor’s Version)</p>
+    '''
+    col1.markdown(seed, unsafe_allow_html=True)
+
+    reco = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Recommender Pool</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Top 200 tracks from 2017 onwards</p>
+    '''
+    col2.markdown(reco, unsafe_allow_html=True)
+
+    similar = '''
+    <p style="font-size: 35px; font-weight:800; text-align: center;">Similarity Metric</p>
+    <p style="font-size: 24px; font-weight:300; text-align: center;">Cosine Similarity</p>
+    '''
+    col3.markdown(similar, unsafe_allow_html=True)
+
 def playlist():
     playlist = '<p style="font-size: 70px; font-weight:800; text-align: center;">Playlist</p>'
     st.markdown(playlist, unsafe_allow_html=True)
@@ -342,7 +448,7 @@ def playlist():
             '<p style="font-size: 24px; font-weight:800; text-align: center;">Seed Track: Akin Ka Na Lang</p>' , unsafe_allow_html=True
         )
     components.iframe("https://open.spotify.com/embed/track/4eNvchiaWf4Glh0AT2exds", height=80)
-    components.iframe("https://open.spotify.com/embed/playlist/3wd1CPZgj0WyTCVrcQpqAL", height=380, scrolling=True)
+    components.iframe("https://open.spotify.com/embed/playlist/6EpYJI0lqCchoxM1dsiRrp", height=380, scrolling=True)
 
     st.markdown(' ')
     st.markdown(' ')
@@ -355,7 +461,7 @@ def playlist():
             '<p style="font-size: 24px; font-weight:800; text-align: center;">Seed Track: State of Grace (Acoustic Version) (Taylor\'s Version)</p>' , unsafe_allow_html=True
         )
     components.iframe("https://open.spotify.com/embed/track/5jAIouBES8LWMiriuNq170", height=80)
-    components.iframe("https://open.spotify.com/embed/playlist/3IN3YG01BTCnPHvpThBs5p", height=380, scrolling=True)
+    components.iframe("https://open.spotify.com/embed/playlist/3G7KyF2RyHVfL59k04GTBs", height=380, scrolling=True)
     
 def conclusion():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Insights and Recommendations</p>'

@@ -61,7 +61,7 @@ def introduction():
 
     col1, col2 = st.columns(2)
 
-    col1.image('images\mori-singing.jpg')
+    col1.image('images/mori-singing.jpg')
 
     col2.markdown(' ')
     col2.markdown(' ')
@@ -100,8 +100,8 @@ def artist():
 
     col1.markdown(' ')
     col2.image("images/angeline.png", width=250, caption='Angeline Quinto')
-    col3.image("images\jona.png", width=250, caption="Jona")
-    col4.image("images\sarah.png", width=250, caption="Sarah Geronimo")
+    col3.image("images/jona.png", width=250, caption="Jona")
+    col4.image("images/sarah.png", width=250, caption="Sarah Geronimo")
     col5.markdown(' ')
  
 
@@ -480,7 +480,7 @@ def methodology():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Methodology</p>'
     st.markdown(title, unsafe_allow_html=True)
 
-    st.image('images\methodology.jpg')
+    st.image('images/methodology.jpg')
 
 def recommender_engine():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Recommender Engine</p>'

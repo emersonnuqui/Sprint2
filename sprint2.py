@@ -61,7 +61,7 @@ def introduction():
 
     col1, col2 = st.columns(2)
 
-    col1.image('mori-singing.jpg')
+    col1.image('images\mori-singing.jpg')
 
     col2.markdown(' ')
     col2.markdown(' ')
@@ -71,15 +71,13 @@ def introduction():
     col2.markdown(' ')
 
     reasons = '''
-    <p style="font-size: 18px; font-weight:300; text-align: center;">  -She barely makes it to the Top 200s or Top 100s</p>
-    <p style="font-size: 18px; font-weight:300; text-align: center;">  -She got the talent, the power, but has so little listership</p>
-    <p style="font-size: 18px; font-weight:300; text-align: center;">  -We want to showcase her talent more. That she is more than your biritera, pinoy teleserye ost singer</p>
-    <p style="font-size: 18px; font-weight:300; text-align: center;">  -We want to create her own brand, her own identity</p>
+    <p style="font-size: 24px; font-weight:300; text-align: left;">    Despite being dubbed as <b style="color:#1DB954;">“Asia’s Phoenix”</b>, seasoned singer Morissette Amon only charted once in Spotify’s Top 200 and only for five days. </p>
+    <p style="font-size: 24px; font-weight:300; text-align: left;">    A singer, songwriter, producer, actress, and artist, Morissette is almost like a household name. But why is she not topping charts as one would expect?</p>
     '''
     col2.markdown(reasons, unsafe_allow_html=True)
 
 def artist():
-    st.image("morissette.jpg", width=1500)
+    st.image("images\morissette.jpg", width=1500)
     st.markdown(" ")
     st.markdown(" ")
     st.markdown(" ")
@@ -98,13 +96,13 @@ def artist():
 
     related_artist = '<p style="font-size: 36px; font-weight:700; text-align: left;">Competitors:</p>'
     st.markdown(related_artist, unsafe_allow_html=True)
-    col1, col2, col3, col4= st.columns(4)
+    col1, col2, col3, col4, col5= st.columns(5)
 
-
-    col1.image("angeline.png", width=200, caption='Angeline Quinto')
-    col2.image("regine.png", width=200, caption="Regine Velasquez")
-    col3.image("jona.png", width=200, caption="Jona")
-    col4.image("sarah.png", width=200, caption="Sarah Geronimo")
+    col1.markdown(' ')
+    col2.image("images/angeline.png", width=250, caption='Angeline Quinto')
+    col3.image("images\jona.png", width=250, caption="Jona")
+    col4.image("images\sarah.png", width=250, caption="Sarah Geronimo")
+    col5.markdown(' ')
  
 
     st.write("[Tiktok](https://www.tiktok.com/@itsmorissette?lang=en)")
@@ -116,7 +114,7 @@ def artist():
 def artist_spotify():
     #Munimuni info
     col1, col2 = st.columns(2)
-    col1.image("morissette2.jpg")
+    col1.image("images\morissette2.jpg")
     muni = '<p style="font-size: 50px; font-weight:700; text-align: center;">Morissette</p>'
     col2.markdown(muni, unsafe_allow_html=True)
     spotify = '<p style="font-size: 18px; font-weight:400; text-align: left;"><b>Spotify: </b> </p>'
@@ -482,6 +480,8 @@ def methodology():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Methodology</p>'
     st.markdown(title, unsafe_allow_html=True)
 
+    st.image('images\methodology.jpg')
+
 def recommender_engine():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Recommender Engine</p>'
     st.markdown(title, unsafe_allow_html=True)
@@ -496,12 +496,12 @@ def playlist():
     st.markdown(' ')
 
     st.markdown(
-            '<p style="font-size: 36px; font-weight:800; text-align: center;">Playlist 1: SB19’s New Sound</p>', unsafe_allow_html=True
+            '<p style="font-size: 36px; font-weight:800; text-align: center;">Playlist 1: Morissette</p>', unsafe_allow_html=True
         )
     st.markdown(
-            '<p style="font-size: 24px; font-weight:800; text-align: center;">Seed Track: *Vibe With Me by Matthiaos*</p>' , unsafe_allow_html=True
+            '<p style="font-size: 24px; font-weight:800; text-align: center;">Seed Track: Akin Ka Na Lang</p>' , unsafe_allow_html=True
         )
-    components.iframe("https://open.spotify.com/embed/track/0G5qmu4TsdUH19zdcbI9Ui", height=80)
+    components.iframe("https://open.spotify.com/embed/track/4eNvchiaWf4Glh0AT2exds", height=80)
     components.iframe("https://open.spotify.com/embed/playlist/2rjCAavNHd1vQvWwsfYQw5", height=380, scrolling=True)
     st.markdown(
             "*Vibe With Me* was chosen due" , unsafe_allow_html=True
@@ -531,7 +531,7 @@ elif selection == "Morissette":
     artist()
 elif selection == "Morissette and competitors":
     artist_spotify()
-elif selection == "Visuals":
+elif selection == "EDA":
     eda()
 elif selection == "Methodology":
     methodology()

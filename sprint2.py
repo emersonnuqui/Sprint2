@@ -127,32 +127,68 @@ def artist_spotify():
     col1.image("images/mori3.jpg", width=500)
     mori = '<p style="font-size: 36px; font-weight:700; text-align: center;">Morissette</p>'
     col1.markdown(mori, unsafe_allow_html=True)
-    spotify = '<p style="font-size: 24px; font-weight:400; text-align: center;">1.06 million monthly listeners</p>'
+    spotify = '''
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Spotify:</b> 1.06 million monthly listeners</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Genre:</b> Soul, Pop, R&B</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Since:</b> 2015</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Youtube:</b> 663K subs. 17M views</p>
+    '''
     col1.markdown(spotify, unsafe_allow_html=True)
 
     col2.image("images/sarah3.jpg",width=500)
     sarah = '<p style="font-size: 36px; font-weight:700; text-align: center;">Sarah Geronimo</p>'
     col2.markdown(sarah, unsafe_allow_html=True)
-    spotify = '<p style="font-size: 24px; font-weight:400; text-align: center;">1.04 million monthly listeners</p>'
+    spotify = '''
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Spotify:</b> 1.04 million monthly listeners</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Genre:</b> Dance, Pop, R&B</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Since:</b> 2003</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Youtube:</b> 400k sub, 39M views</p>
+    '''
     col2.markdown(spotify, unsafe_allow_html=True)
 
     col3.image("images/angeline3.jpg", width=500)
     ange = '<p style="font-size: 36px; font-weight:700; text-align: center;">Angeline Quinto</p>'
     col3.markdown(ange, unsafe_allow_html=True)
-    spotify = '<p style="font-size: 24px; font-weight:400; text-align: center;">0.67 million monthly listeners</p>'
+    spotify = '''
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Spotify:</b> 0.67 million monthly listeners</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Genre:</b> Ballad, Pop, Classic</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Since:</b> 2011</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Youtube:</b> 153K subs, 32M views</p>
+    '''
+    
     col3.markdown(spotify, unsafe_allow_html=True)
 
     st.markdown(' ')
     st.markdown(' ')
     st.markdown(' ')
-
-
-    caption = '<p style="font-size: 40px; font-weight:400; text-align: center;"> <b style="color:#1DB954;">Morissette</b> has already out-streamed Sarah G. and Angeline.</p>'
-    st.markdown(caption, unsafe_allow_html=True)
-
     st.markdown(' ')
     st.markdown(' ')
     st.markdown(' ')
+
+    spotify = '''
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Songs released:</b> 54</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Song(s) in chart:</b> 1</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Percent of top songs:</b> 1.9%</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Average monthly streams:</b> 532K</p>
+    '''
+    col1.markdown(spotify, unsafe_allow_html=True)
+
+    spotify = '''
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Songs released:</b> 226</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Song(s) in chart:</b> 7</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Percent of top songs:</b> 3.1%</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Average monthly streams:</b> 1.17M</p>
+    '''
+    col2.markdown(spotify, unsafe_allow_html=True)
+
+    spotify = '''
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Songs released:</b> 79</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Song(s) in chart:</b> 2</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Percent of top songs:</b> 2.5%</p>
+    <p style="font-size: 24px; font-weight:400; text-align: left;"><b>Average monthly streams:</b> 313K</p>
+    '''
+    col3.markdown(spotify, unsafe_allow_html=True)
+
     st.markdown(' ')
     st.markdown(' ')
     st.markdown(' ')
@@ -269,8 +305,19 @@ def eda():
     col1.markdown(' ')
     col1.markdown(' ')
     col1.markdown(' ')
-    col1.image("images/table.jpg")
+    insight = '<p style="font-size: 35px; font-weight:400; text-align: center;">Her only charting song barely makes it to the top 100. </p>'
+    col1.markdown(insight, unsafe_allow_html=True)
     col2.image("images/chart.png", width=1000)
+
+    col1,col2 =st.columns([1,2])
+
+    col1.markdown(' ')
+    col1.markdown(' ')
+    col1.markdown(' ')
+    col1.markdown(' ')
+    insight = '<p style="font-size: 35px; font-weight:400; text-align: center;">Despite releasing more albums/EPs in recent years, her only charting song was a duet cover back in 2015. </p>'
+    col1.markdown(insight, unsafe_allow_html=True)
+    col2.image('images/timeline.jpg', width=1000)
 
     col1, col2= st.columns([1,2])
 
@@ -282,6 +329,7 @@ def eda():
     col1.markdown(' ')
     col1.markdown(' ')
     col1.markdown(' ')
+    
     caption = '''
     <p style="font-size: 30px; font-weight:400; text-align: left;">Compared to her contemporaries, Morissette’s songs are:</p>
     <p style="font-size: 30px; font-weight:400; text-align: center; color:#1DB954;">Quieter</p>
@@ -467,6 +515,114 @@ def conclusion():
     title = '<p style="font-size: 70px; font-weight:800; text-align: center;">Insights and Recommendations</p>'
     st.markdown(title, unsafe_allow_html=True)
 
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+    recommender = '<p style="font-size: 55px; font-weight:600; text-align: center;">Recommended Sound</p>'
+    st.markdown(recommender, unsafe_allow_html=True)
+
+    col1, col2 = st.columns([2,1])
+    col1.image('images/recommender.jpg', width=1000)
+    col2.markdown(' ')
+    col2.markdown(' ')
+    col2.markdown(' ')
+    col2.markdown(' ')
+    recommender = '''
+    <p style="font-size: 36px; font-weight:400; text-align: center;">Slower tempo</p>
+    <p style="font-size: 36px; font-weight:400; text-align: center;">Highly acoustic</p>
+    <p style="font-size: 36px; font-weight:400; text-align: center;">Energy is subdued</p>
+    '''
+    col2.markdown(recommender, unsafe_allow_html=True)
+
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+    recommender = '<p style="font-size: 55px; font-weight:600; text-align: center; color:red;">Remove all the bells and whistlescommon in pop songs</p>'
+    st.markdown(recommender, unsafe_allow_html=True)
+    recommender = '''
+    <p style="font-size: 36px; font-weight:400; text-align: left;">1. Synthesizers</p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">2. Heavy Bass</p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">3. Over-the-top production</p>
+    '''
+    st.markdown(recommender, unsafe_allow_html=True)
+
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+    recommender = '''
+    <p style="font-size: 55px; font-weight:600; text-align: center; color:green;">Production suggestions:</p>'
+    <p style="font-size: 35px; font-weight:600; text-align: center; color:green;"><i>“ Focus on artist’s raw vocal ability ”</i></p>
+    '''
+    st.markdown(recommender, unsafe_allow_html=True)
+    recommender = '''
+    <p style="font-size: 36px; font-weight:400; text-align: left;">1. Stripped</p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">2. Soulful</p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">3. Simple Accompaniment</p>
+    '''
+    st.markdown(recommender, unsafe_allow_html=True)
+
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+    recommender = '<p style="font-size: 55px; font-weight:800; text-align: center;">Promotional Tactic</p>'
+    st.markdown(recommender, unsafe_allow_html=True)
+    recommender = '''
+    <p style="font-size: 36px; font-weight:400; text-align: left;">Advanced Contracts with Star Cinema <b style="color:#1DB954;">Movie OST Lead Single</b></p>
+    '''
+    st.markdown(recommender, unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns(3)
+    col1.image('images/tadhana.png')
+    col2.image('images/luck.png')
+    col3.image('images/cuddle.png')
+
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+    st.markdown(' ')
+
+
+    col1, col2 = st.columns([1,2])
+    col1.image('images/arthur.png')
+    recommender = '''
+    <p style="font-size: 36px; font-weight:800; text-align: left;">Collaborate with <b style="color:#1DB954;">Arthur Nery</b></p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">  </p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">  </p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">  </p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">  </p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">Followers: 2,388,211</p>
+    <p style="font-size: 36px; font-weight:400; text-align: left;">Monthly Listeners: 3,180,702</p>
+
+
+    '''
+    col2.markdown(recommender, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+    
+
 st.sidebar.markdown('<p style="font-size: 25px; font-weight:700; color:black; text-align: center;">Main Pages</p>', unsafe_allow_html=True)
 
 list_of_pages = [
@@ -475,8 +631,8 @@ list_of_pages = [
     "Morissette and competitors",
     "Proposal",
     "Tools",
-    "Methodology",
     "EDA",
+    "Methodology",
     "Recommender Engine",
     "Playlist",
     "Insights and Recommendations"
